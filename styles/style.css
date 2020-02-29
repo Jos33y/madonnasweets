@@ -24,7 +24,7 @@ html,body{
 
 span.logo-head{
     font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     color: #1e2024; 
     text-transform: uppercase;
@@ -226,7 +226,7 @@ span.logo-head{
         padding: 18px 0 14px;
     }
 span.logo-head{
-    font-size: 25px;
+    font-size: 20px;
 }
 .logo{
     width: 40px;
