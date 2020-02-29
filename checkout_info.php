@@ -43,7 +43,7 @@ $customer_zip = $row_customer['customer_zip'];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>madonnasweets</title>
+    <title>Madonna Sweets</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -90,8 +90,7 @@ $customer_zip = $row_customer['customer_zip'];
       <header class="header-section">
             <div class="top-header-top">
           <div class="header-top">
-        
-         
+                 
               <div class="row justify-content-center">
                 <div class="col-lg-2 text-center text-lg-left">
                   <!-- logo -->
@@ -102,7 +101,7 @@ $customer_zip = $row_customer['customer_zip'];
                 </div>
                   <div class="col-xl-6 col-lg-5">
                     <form class="header-search-form">
-                      <input type="text" placeholder="Search on madonnasweets...">
+                      <input type="text" placeholder="Search on Madonna Sweets...">
                       <button><i class="fa fa-search"></i></button>
                     </form>
                 </div>
@@ -320,6 +319,6 @@ if($run_customer){
 
     echo "<script>alert('Address Saved Successfully')</script>";
 
-    echo "<script>window.open('payment_options.php', '_self')</script>";
+    echo "<script>window.open('orders.php?c_id=<?php echo $update_id; ?>', '_self')</script>";
 }
 }
